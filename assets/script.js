@@ -36,10 +36,11 @@ gbPlusBtn.addEventListener('click', function() {
 // HINT: You can delete this console.log after you no longer need it!
 console.log('Gingerbread + button was clicked!')
 gb++
+total = gb+cc+sugar
 console.log('gb plus was clicked')
 console.log(gb)
 gbQuantity.textContent = gb
-
+totalQuantity.textContent = total
 // TODO: Write the code to be run when the "+" button for "Gingerbread" is clicked
 })
 
@@ -52,7 +53,7 @@ console.log(gb)
 if (gb<0){gb=0} else{
     console.log(gb)
     gbQuantity.textContent = gb
-total
+    totalQuantity.textContent = total
 }})
 
 
@@ -67,7 +68,7 @@ console.log(cc)
 if (cc<0){cc=0} else{
     console.log(cc)
     ccQuantity.textContent = cc
-total
+totalQuantity.textContent = total
 }})
 
 ccPlusBtn.addEventListener('click', function() {
@@ -79,7 +80,7 @@ console.log(cc)
 if (cc<0){cc=0} else{
     console.log(cc)
     ccQuantity.textContent = cc
-total
+    totalQuantity.textContent = total
 }})
 
 sugarPlusBtn.addEventListener('click', function() {
@@ -91,7 +92,7 @@ console.log(sugar)
 if (sugar<0){sugar=0} else{
     console.log(sugar)
     sugarQuantity.textContent = sugar
-total
+    totalQuantity.textContent = total
 }})
 
 sugarMinusBtn.addEventListener('click', function() {
@@ -103,7 +104,7 @@ console.log(sugar)
 if (sugar<0){sugar=0} else{
     console.log(sugar)
     sugarQuantity.textContent = sugar
-total
+    totalQuantity.textContent = total
 }})
 
 
